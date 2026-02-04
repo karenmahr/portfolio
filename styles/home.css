@@ -17,21 +17,49 @@ header {
     column-gap: 8px;
 }
 
+
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    background-color: #D4C2D8;
+    background-color: #85748A;
     text-align: center;
     padding: 1rem;
     display: block;
     font-weight: bold;
+    color:#E3DBD3;
 }
 
 a:hover {
     text-decoration: overline;
+}
+
+.hamburguer {
+    background: none;
+    border: none;
+    color: #63728E;
+    cursor: pointer
+}
+
+.hamburguer::before {
+    content: "\2630";
+}
+
+.hamburguer.show::before {
+    content: "\00D7"
+}
+
+.navigation {
+    display: none;
+    background-color: #f7e7ce96;
+    height: 35px;
+
+}
+
+.navigation.show {
+    display: block;
 }
 
 img{
