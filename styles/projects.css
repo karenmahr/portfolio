@@ -98,6 +98,7 @@ img
     width:100%;
     height:auto;
     margin:.5rem;
+    border:1px solid #40332b5e;
 }
 
 a{
@@ -110,4 +111,12 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+title{
+    color:#594D5D;
+}
+
+h1{
+    color:#594D5D;
 }

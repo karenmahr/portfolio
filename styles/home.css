@@ -13,7 +13,7 @@ header {
     grid-template-columns: 24px auto 44px;
     padding: 5px 0 5px 10px;
     align-items: end;
-    border-bottom: solid 1px #40332B;
+    border-bottom: 1px solid #85748A;
     column-gap: 8px;
 }
 
@@ -24,12 +24,11 @@ ul {
 
 a {
     text-decoration: none;
-    background-color: #85748A;
     text-align: center;
-    padding: 1rem;
+    padding: .7rem;
     display: block;
     font-weight: bold;
-    color:#E3DBD3;
+    color:#85748A;
 }
 
 a:hover {
@@ -54,8 +53,7 @@ a:hover {
 .navigation {
     display: none;
     background-color: #f7e7ce96;
-    height: 35px;
-
+    height: 40px;
 }
 
 .navigation.show {
@@ -71,6 +69,7 @@ img{
     display: flex;
     column-gap: 12px;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .social a {
@@ -92,3 +91,30 @@ img{
 .social a:hover {
     background-color: #55738D;
 }
+
+.information{
+    padding:3rem;
+}
+
+title {
+    color: #594D5D;
+}
+
+h1{
+    color:#594D5D;
+}
+
+.languages img{
+    width:40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #85748A;
+    margin-top: 0;
+}
+

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/portafolio.svg">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/home-large.css">
     <script src="scripts/home.js" defer></script>
@@ -10,7 +11,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.svg" alt="Site Logo" width="24" height="24">
+        <img src="images/portafolio.svg" alt="Site Logo" width="24" height="24">
         <span>Karen Mahr - Portfolio</span>
         <button id="nav-button" class="hamburguer" aria-label="navigation"></button>
     </header>
@@ -18,17 +19,28 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
             <li><a href="#"> Projects</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <h1>Hello, I´m Karen</h1>
-    <img src="images/banner.png" alt="Banner">
-    <p id="languages">Javascript | C* | HTML | CSS | PowerBi | Tableau | SQL </p>
-    <p>👩🏼‍🎓 Pursuing my Bachelor's Degree in Software Development</p>
-    <p>💻 Certificate in Web Computer Programming</p>
-    <p>📊 Data Analytics - Power BI and SQL</p>
+    <h1>Welcome to my Portfolio!</h1>
+    <img src="images/banner.png" alt="Banner" id="banner">
+
+    <div class="languages">
+        <img src="images/javascript.svg" alt="Javascript logo">
+        <img src="images/html.svg" alt="HTML logo">
+        <img src="images/powerbi.svg" alt="Power Bi Logo">
+        <img src="images/c.svg" alt="C* Logo">
+        <img src="images/css.svg" alt="CSS Logo">
+        <!-- falta el icono de mySQL y Tableau -->
+    </div>
+
+    <div class="information">
+        <p>👩🏼‍🎓 Pursuing my Bachelor's Degree in Software Development</p>
+        <p>💻 Certificate in Web Computer Programming</p>
+        <p>📊 Data Analytics - Power BI, Tableau and SQL</p>
+    </div>
 
 
     <footer>
